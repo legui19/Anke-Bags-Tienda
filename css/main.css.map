@@ -5,8 +5,7 @@
         "main.scss",
         "_variables.scss",
         "_defauls.scss",
-        "_navbar.scss",
-        "_armaTuPc.scss"
+        "centerStyle.scss"
     ],
     "names": [],
     "file": "main.css"

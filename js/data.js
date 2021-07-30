@@ -22,22 +22,7 @@ let productosAjaxCall = () => {
     });
 }
 
-// --------------- VALOR DEL DOLAR----------------//
 
-let dolar_Json = []
-
-let dolarAjaxCall = () => {
-    return $.ajax({
-        url: "https://www.dolarsi.com/api/api.php?type=valoresprincipales",
-        dataType: "json",
-        success: function (response) {
-            for (const iterator of response) {
-                dolar_Json.push(iterator)
-            }
-        },
-        
-    });
-}
 
 // ----------------- SVG ----------------//
 
@@ -66,3 +51,20 @@ $(function () {
     );
 
 });
+
+// --------------- VALOR DEL DOLAR----------------//
+
+let dolar_Json = []
+
+let dolarAjaxCall = () => {
+    return $.ajax({
+        url: "https://www.dolarsi.com/api/api.php?type=valoresprincipales",
+        dataType: "json",
+        success: function (response) {
+            for (const iterator of response) {
+                dolar_Json.push(iterator)
+            }
+        },
+        
+    });
+}
