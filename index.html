@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anke & Bags / Carteras y Accesorios</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">    
+    <!--Favicon-->
+    <link rel="icon" href="img/favicon/Anke _Logo.png" alt="Logo">  
+    
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="css/estiloproyect.css">
+
+</head>
+<body >
+    <!--<body class="bg bootstrapOverwrites">-->
+    
+    <header class=headermain>
+        <nav class="navbar navbar-dark bg-primary fixed-top">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html" class="navbar-brand">
+                    
+                </a>
+                <div class="d-flex flex-row">
+                    <ul class="navbar-nav">
+                        <li class="nav-item carrito">
+                            
+
+                            <span data-toggle="tooltip" data-placement="bottom" title="0" id="contador"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/Anke & Bags.jpg" class="rounded mx-auto d-block"
+                        width="70px" height="70px"" alt=" Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index_landing.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comocomprar.html">Como Comprar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index.html">Carteras</a></li>
+                                <li><a class="dropdown-item" href="index.html">Billeteras</a></li>
+                                <li><a class="dropdown-item" href="index.html">Bandoleras</a></li>
+                                <li><a class="dropdown-item" href="index.html">Bolsos de Playa</a></li>
+                                <li><a class="dropdown-item" href="index.html">Caminitos y alfombras</a></li>
+                                <li><a class="dropdown-item" href="index.html">Mochilas</a></li>
+                                <li><a class="dropdown-item" href="index.html">Materas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>       
+    </header>
+    <br>
+    <section class="container d-flex justify-content-center align-items-center flex-column">
+        <form class="form-inline col-md-12 buscador" onsubmit="return false">
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+
+
+        <div class="toastContainer">
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <!--Contendra tambien las redes sociales donde nos puede encontrar-->
+            <h3>Seguinos en:</h3>
+            <img src="img/icons_facebook-80.png" alt="Logo Facebook">
+            <img src="img/icons_instagram-80.png" alt="Logo Instagram">
+            <img src="img/icons_pinterest-80.png" alt="Logo Pintorest">
+        </div>
+        <p><a href="index_landing.html">Ir a Inicio</a></p>
+    </footer>
+    
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

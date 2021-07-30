@@ -1,0 +1,278 @@
+/**ESTILOS APLICADOS EN LA ETIQUETA HEADER PRODUCTOS**/
+.headermain {
+  background-color: #939b62;
+  width: 100%;
+  height:15vh;
+  position:relative; 
+  top: 16vh;
+}
+.btn-font {
+  float: right;
+  background-color: goldenrod;
+  border-radius: 12px;
+}
+
+header div li {
+  display: inline-block;
+  float: right;
+  padding: 6px;
+  margin: 15px 8px;
+  background-color: goldenrod;
+  border-radius: 12px;
+  
+}
+
+header nav li {
+  font-weight: bold;
+  display: inline-block;
+  padding: 6px;
+  font-style: normal;
+  color: #003380;
+  background-color: goldenrod;
+  border: solid 1px yellowgreen;
+  border-radius: 9px;
+  positio 50px;
+}
+/**ESTILOS APLICADOS EN LA ETIQUETA HEADER RESTO**/
+header {
+  background-color: #939b62;
+  width: 99.9%;
+}
+
+header form {
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* Aplicado a productos Carrito*/
+.carritoEstilo {
+  background: none;
+  border: none;
+  color: white;
+}
+.modalCarrito {
+  width: 800px;
+  font-family: "Montserrat", sans-serif;
+  background-color:  #e2d2c7;
+  color: black;
+}
+
+.imgCarrito {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+.productoEnCarrito {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nameCarrito {
+  margin: 1%;
+}
+
+.botonEliminar {
+  margin: 1%;
+  color: darkcyan;
+  background: beige;
+  border: darkcyan solid 1px;
+}
+
+.botonEliminar:hover {
+  transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.totalEstilo {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5%;
+  font-weight: negrita;
+  color: grey;
+}
+
+
+/**ESTILOS APLICADOS EN LA ETIQUETA MAIN**/
+main {
+  background-color: #ffd56b;
+  width: 99.9%;
+  margin: 0px;
+  padding: 15px;
+}
+
+.estiloanke {
+  color: goldenrod;
+  font-size: 28px;
+}
+
+.estiloanke--h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.estiloanke--h2 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.sobrenosotros {
+  font-size: 16px;
+  line-height: 2;
+}
+
+section ul li {
+  font-size: 18px;
+  line-height: 2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery {
+  background-color: #ffd56b;
+  padding: 80px 0;
+}
+
+.gallery img {
+  background-color: antiquewhite;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.indexproductos {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  font-style: italic;
+  color: black;
+  background-color: #ffd56b;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  position: relative;
+}
+
+.centrar {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+section table {
+  text-align: center;
+  margin: auto auto;
+  border: #8383f8 2px double;
+}
+
+.vertical-img-gallery{
+  font-style: "vertical-align: inherit;"
+}
+
+/**FORMATO PARA ICONOS DE LA SECCION COMO COMPRAR**/
+#grilla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+      grid-template-areas: "columna-llena columna-vacia";
+  gap: 7em;
+  background-color: antiquewhite;
+}
+
+div#columna-vacia {
+  grid-area: "columna-vacia";
+}
+
+div#columna-llena {
+  grid-area: "columna-llena";
+}
+
+.posicion {
+  padding: 20px;
+  margin: 1px;
+}
+
+.posicion--izq {
+  -ms-grid-column-align: right;
+  justify-self: right;
+}
+
+.posicion--der {
+  -ms-grid-column-align: left;
+  justify-self: left;
+}
+
+/**ESTILOS APLICADOS EN LA ETIQUETA FOOTER*/
+.footer {
+  background-color: #90be6d;
+}
+
+footer h3 {
+  font-size: 18px;
+  line-height: 2;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+footer div {
+  text-align: center;
+  font-size: 15px;
+}
+
+.bootstrapOverwrites {
+  .navbar {
+      background-color: $verde !important;
+      padding: 0rem 1rem .5rem 1rem;
+      a.navbar-brand {
+          svg {
+              width: 220px ;
+          }
+          color:beige;
+          font-size: 1rem;
+          text-transform: uppercase;
+          margin-top: 1rem;
+      }
+      form {
+          margin-right: 1.6rem;
+      }
+      .nav-item {
+          position: relative;
+          
+          img {
+              cursor: pointer;
+              width: 3rem;
+          }
+          span {
+              transition: all .5s ease-in-out;
+              &.show {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  height: 2rem;
+                  width: 2rem;
+                  background-color: green;
+                  border-radius: 50%;
+                  color: beige;
+                  font-size: .8rem;
+                  font-size: 1.1rem;
+                  text-align: center;
+                  font-weight: bold   ;
+              }
+          }
+          
+          
+      }
+  }
+}
+
+/*# sourceMappingURL=estiloproyect.css.map */
